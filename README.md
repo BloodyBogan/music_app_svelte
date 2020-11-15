@@ -8,6 +8,25 @@ Songs are stored in an array of objects in the store.js file. Add or remove song
 
 [Click here](https://5fb1995399973970ea505fc9--sad-clarke-571b00.netlify.app/)
 
+## Structure
+
+```bash
+export const songsStore = writable([
+  {
+    title: '',
+    artist: '',
+    songPath: 'assets/music/',
+    imagePath: '/assets/images/',
+  },
+  {
+    title: '',
+    artist: '',
+    songPath: 'assets/music/',
+    imagePath: '/assets/images/',
+  },
+]
+```
+
 ## Get started
 
 Install the dependencies...

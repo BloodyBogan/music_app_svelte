@@ -15,13 +15,13 @@ export const songsStore = writable([
   {
     title: '',
     artist: '',
-    songPath: 'assets/music/',
+    songPath: '/assets/music/',
     imagePath: '/assets/images/',
   },
   {
     title: '',
     artist: '',
-    songPath: 'assets/music/',
+    songPath: '/assets/music/',
     imagePath: '/assets/images/',
   },
 ]
